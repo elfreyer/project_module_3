@@ -3,6 +3,7 @@ data/
 data_02/
 doc/
 trials_nb/
+checkpoints/
 
 # Remove specific file 
 # notebooks/02_autoencoder_notes.ipynb
