@@ -1,0 +1,55 @@
+# CIFAR-10 Project Dependencies
+# CAS Advanced Machine Learning - Module 3
+# University of Bern, Data Science Lab, 2024
+#
+# Tested with Python 3.11 on:
+# - macOS 14.6 (Apple Silicon M3)
+# - Google Colab (October 2025)
+#
+# Installation: pip install -r requirements.txt
+
+# ============================================================================
+# Core Deep Learning Framework
+# ============================================================================
+torch==2.3.0
+torchvision==0.18.0
+torchaudio==2.3.0
+
+# Note: For CUDA GPU support, visit https://pytorch.org/get-started/locally/
+# and select your CUDA version for the appropriate installation command
+
+# ============================================================================
+# Data Science Stack
+# ============================================================================
+numpy==1.26.4
+pandas==2.1.0
+
+# ============================================================================
+# Visualization
+# ============================================================================
+matplotlib==3.8.0
+seaborn==0.13.0
+
+# ============================================================================
+# Utilities
+# ============================================================================
+tqdm==4.66.0          # Progress bars
+einops==0.7.0         # Tensor shape manipulation
+
+# ============================================================================
+# Dimensionality Reduction & Visualization
+# ============================================================================
+umap-learn==0.5.5     # UMAP dimensionality reduction
+scikit-learn==1.4.0   # ML utilities (includes t-SNE)
+
+# ============================================================================
+# ML Experiment Tools (Optional)
+# ============================================================================
+mlflow==2.10.0        # Experiment tracking
+optuna==3.5.0         # Hyperparameter optimization
+
+# ============================================================================
+# Jupyter Environment (for local users)
+# ============================================================================
+jupyter>=1.0.0
+ipykernel>=6.25.0
